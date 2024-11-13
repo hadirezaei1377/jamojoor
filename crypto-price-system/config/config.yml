@@ -1,0 +1,14 @@
+api:
+  url: "https://api.wallex.ir/v1/markets" 
+
+redis:
+  address: "localhost:6379"
+  password: ""
+  db: 0
+
+elasticsearch:
+  url: "http://localhost:9200"
+  index: "crypto-prices"
+
+telegram:
+  bot_token: "OUR_TELEGRAM_BOT_TOKEN"
