@@ -1,0 +1,6 @@
+{"level":"info","ts":1620000000.000000,"caller":"main.go:21","msg":"Application started","module":"main"}
+{"level":"info","ts":1620000000.000000,"caller":"main.go:29","msg":"Processing user data","username":"ali-daei","userID":1234,"status":"active"}
+{"level":"warn","ts":1620000000.000000,"caller":"main.go:35","msg":"API rate limit reached","api_endpoint":"/getUserData","userID":1234,"attempts":5}
+{"level":"error","ts":1620000000.000000,"caller":"main.go:41","msg":"Failed to connect to database","db_host":"localhost","retry_count":3,"error":"file does not exist"}
+{"level":"debug","ts":1620000000.000000,"caller":"main.go:47","msg":"Debugging session start","debug_id":"dbg123","description":"Starting debug session for testing purposes"}
+{"level":"fatal","ts":1620000000.000000,"caller":"main.go:53","msg":"Critical error, shutting down","module":"main","reason":"Unable to recover from critical error"}
